@@ -1,0 +1,18 @@
+appdata: AppData
+
+areas_lookup_table: "./AppData/lookup_table.json"
+overlaps: "./AppData/overlaps_v2.json"
+
+roster:
+  timezone: Europe/ATH
+  csv: roster.csv
+  db: roster.db
+  table: roster
+  sharepoint: /mnt/HDD1/SHARED/roster
+
+mqtt:
+  # broker: 10.101.35.241 # Host #1
+  broker: 192.168.1.108 # Host #2
+  port: 1884
+  user: null
+  password: null
